@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Music component matches the snapshot 1`] = `
+<div
+  id="music"
+>
+  <div
+    class="searchItem"
+  >
+    <input
+      class="Songinput"
+      onChange={[Function]}
+      placeholder="Search Tracks"
+      type="text"
+    />
+    <button
+      class="Searchbutton"
+      onClick={[Function]}
+    >
+      Search
+    </button>
+  </div>
+  <fieldset
+    class="track-info"
+  >
+     
+  </fieldset>
+</div>
+`;

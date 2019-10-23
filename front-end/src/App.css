@@ -1,0 +1,77 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-image: url("apple.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+header {
+  background-image: url("header.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 220px;
+}
+
+#favback, #music, #bookdiv {
+  background-color: white;
+}
+
+nav {
+  text-align: right;
+}
+
+.Songinput {
+  width: 150px;
+  transition: 1000ms;
+  height: 20px;
+}
+
+.track-info, .Favinfo, .Bookinfo {
+  padding-left: 70px;
+}
+
+#favback {
+  padding-left: 70px;
+}
+
+.searchItem {
+  text-align: center;
+}
+
+.Songinput:hover {
+  width: 300px;
+}
+
+.Searchbutton {
+  width: 70px;
+  height: 30px;
+  background-color: lightgrey;
+  border: 0.5px solid black;
+}
+
+.Searchbutton:hover {
+  background-color: black;
+  color: white;
+}
+
+li, a {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  padding: 7px;
+}
+
+li:hover {
+  background-color: white;
+  border-radius: 5px;
+}
+
+nav {
+  background-color: lightgrey;
+}
